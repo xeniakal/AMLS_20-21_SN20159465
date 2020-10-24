@@ -16,6 +16,8 @@ Add libraries...
 
 Explain how to run...
 
+If you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.
+
 ## Final results
 
 Add table with final accuracy results
