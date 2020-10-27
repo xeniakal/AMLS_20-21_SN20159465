@@ -2,16 +2,6 @@
 
 ## Tasks
 
-### A1
-Add content...
-
-### A2
-Add content...
-
-### B1
-Add content...
-
-### B2
 Add content...
 
 ## Workflow graph
