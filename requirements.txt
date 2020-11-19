@@ -1,0 +1,10 @@
+python>=3.6
+pandas
+numpy
+matplotlib
+tensorflow
+keras
+scikit-learn
+seaborn
+imblearn
+pickle
