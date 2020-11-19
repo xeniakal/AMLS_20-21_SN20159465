@@ -1,7 +1,6 @@
 # AMLS_20-21_SN20159465
 
-## How this project is organised...
-
+## How to use
 ## Tasks
 
 Add content...
