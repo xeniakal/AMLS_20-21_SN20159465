@@ -2,7 +2,7 @@
 
 This assignment involves the realisation of various machine learning tasks on two provided datasets that are subsets of the original CelebFaces Attributes Dataset (CelebA) and Cartoon Set. The datasets can be downloaded via following link: https://drive.google.com/file/d/1wGrq9r1fECIIEnNgI8RS-_kPCf8DVv0B/view?usp=sharing. 
 
-We went through the data, analysed it and pre-processed it as necessary. We designed separate modes for each task and report training errors, validation errors, hyper-parameter tuning. To choose the best-fitted model we tried several models for each task, as you can see in code files and compared the results through tables and plots.
+We went through the data, analysed it and pre-processed it as necessary. We designed separate modes for each task and report training errors, validation errors, hyper-parameter tuning. To choose the best-fitted model we tried several models for each task, as you can see in code files comparing the results through tables and plots.
 
 ## How to use
 
@@ -22,12 +22,9 @@ The structure of project is the following:
   - imports.py
   - README.md
   
- The **A1, A2, B1 and B2** folders contain the code files for each task, besides the pretrained models that had the better performance.
- 
- all steps taken to solve the tasks, explaining your model
-and design choices. In addition, in the report, you should also describe and analyse
-the results obtained via your experiments and provide accuracy prediction scores on
-unseen data.
+The **A1, A2, B1 and B2** folders contain the code files for each task, besides the pretrained models that showed the better performance.
+* In *.ipynb* files we present all steps taken to solve the tasks, explaining our models and design choices. In addition, we explain briefly the results obtained via our experiments and provide accuracy prediction scores on unseen data (Test Set).
+* In *.py* files
 
 
 ## Tasks
