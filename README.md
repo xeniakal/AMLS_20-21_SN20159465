@@ -71,7 +71,9 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 We present our best models' performance for each task on train, validation and test set:
 * Table with final accuracy results:
 
-First Header | Second Header
+Task | Model | Train Ac | Val Acc | Test Acc
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+A1 | Content from cell 2
+A2 | Content in the second column
+B1 | fr
+B2 | gt
