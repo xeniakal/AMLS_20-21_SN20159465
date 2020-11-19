@@ -30,7 +30,7 @@ The **A1, A2, B1 and B2** folders contain the code files for each task, besides 
 
 ## Tasks
 
-In order to avoid overfitting (our model not to be tuned to the data its been given), each time we were running our models, *a random partition of dataset into train, validation and test set* was implemented, always in proportion of *70:15:15*.
+In order to avoid overfitting (our model not to be tuned to the data its been given), each time we were running our models, ***a random partition of dataset into train, validation and test set*** was implemented, always in proportion of ***70:15:15***.
 
 * **Task A1**: A classification problem of gender recognition (male/female) on Celeba Dataset.
 * **Task A2**: A classification problem of emotion detection (smiling/not smiling) on Celeba Dataset.
