@@ -4,9 +4,9 @@
 
 This project is part of the final assignment of AMLS 2020-2021 course of Integrated Machine Learning Systems MSc at UCL. It consists of four tasks **A1, A2, B1, B2** which are explained on [Tasks](#tasks).
 The structure of project is the following:
--a
--b
- -f
+- a
+- b
+ - f
 
 
 
