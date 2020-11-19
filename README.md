@@ -66,8 +66,11 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 
   `$ python main.py A1`
 
-
-
 ## Final results
 
-Add table with final accuracy results
+We present our best models' performance for each task on train, validation and test set:
+1. Table with final accuracy results:
+  First Header | Second Header
+  ------------ | -------------
+  Content from cell 1 | Content from cell 2
+  Content in the first column | Content in the second column
