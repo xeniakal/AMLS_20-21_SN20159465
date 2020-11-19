@@ -78,4 +78,5 @@ A2 | CNN | a | 0.88133 | 0.89333
 B1 | SVM | 1 | 1 | 1
 B2 | LogReg | a | 0.84133 | 0.84267
 
-* Comparison of Test Set performance on Baseline model vs Best model >We're living the future so
+* **Comparison of Test Set performance on Baseline model vs Best model:**
+  **Note:** Check each task's Notebook for further details on the structure o and hyperparameters of models
