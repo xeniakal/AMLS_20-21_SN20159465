@@ -53,8 +53,8 @@ The project was implemented in a windows machine, on conda environment, a friend
 If you want to run this repository, first install the required dependencies:
 
 ```
-git clone https://github.com/xeniakal/AMLS_20-21_SN20159465.git
-pip install -r requirements.txt
+$ git clone https://github.com/xeniakal/AMLS_20-21_SN20159465.git
+$ pip install -r requirements.txt
 ```
 
 All neccessary libraries are imported through `imports.py` file. Just import this file in your code and all dependencies will be inserted automatically.
@@ -63,6 +63,7 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 
 * `.ipynb` files can be run cell by cell, after installing the requirements, in case you want to check every tecnhique and model of our experiments, or just run cells of specific models in which you will be guided throught the arranging of our notebooks.
 * `.py` files: To run each task insert as argument your preferred task to the main function. Possible arguments are: 'A1` or `a1`,'A2` or `a2`,'B1` or `B1`,'B2` or `B2` and `all` to execute alla tasks, eg:
+
 `$ python main.py A1`
 
 
