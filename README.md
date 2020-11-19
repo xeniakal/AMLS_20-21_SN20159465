@@ -72,8 +72,8 @@ We present our best models' performance for each task on train, validation and t
 * Table with final accuracy results:
 
 Task | Model | Train Ac | Val Acc | Test Acc
------------- | -------------
-A1 | Content from cell 2
-A2 | Content in the second column
-B1 | fr
-B2 | gt
+------------ | ------------- | ------------- | ------------- | -------------
+A1 | Content from cell 2 | a | a | a
+A2 | Content in the second column | a | a | a
+B1 | fr | a | a | a
+B2 | gt | a | a | a
