@@ -38,10 +38,12 @@ Add pipeline procedures...
 
 ## Dependencies
 
+This repo was tested on `Python 3.6`. You are encouraged to use this version or later.
+
 If you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.
 
 The project was implemented in a windows machine, on conda environment, a friendly interface to run python projects. Python Notebooks were executed on Jupyter Notebook, while python files on Conda integrated environment. Before installing anything, it is suggested to create a conda environment which will satisfy our project dependencies.
-So the following packets are required to be installed to run the project:
+So the following packages are required to be installed to run the project:
 
 ```
 $ pip install pandas
