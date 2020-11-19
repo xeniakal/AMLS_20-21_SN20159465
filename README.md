@@ -51,7 +51,7 @@ $ pip install keras
 $ pip install scikit-learn
 $ pip install seaborn
 $ pip install imblearn
-$ pip install pickle'
+$ pip install pickle`
 
 Add libraries...
 
