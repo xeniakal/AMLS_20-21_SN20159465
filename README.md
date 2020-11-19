@@ -43,15 +43,17 @@ If you have an Nvidia GPU, then you can install tensorflow-gpu package. It will 
 The project was implemented in a windows machine, on conda environment, a friendly interface to run python projects. Python Notebooks were executed on Jupyter Notebook, while python files on Conda integrated environment. Before installing anything, it is suggested to create a conda environment which will satisfy our project dependencies.
 So the following packets are required to be installed to run the project:
 
-`$ pip install pandas`
-`$ pip install numpy`
-`$ pip install matplotlib`
-`$ pip install tensorflow`
-`$ pip install keras`
-`$ pip install scikit-learn`
-`$ pip install seaborn`
-`$ pip install imblearn`
-`$ pip install pickle`
+```
+$ pip install pandas
+$ pip install numpy
+$ pip install matplotlib
+$ pip install tensorflow
+$ pip install keras
+$ pip install scikit-learn
+$ pip install seaborn
+$ pip install imblearn
+$ pip install pickle
+```
 
 Add libraries...
 
