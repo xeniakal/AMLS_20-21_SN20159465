@@ -10,10 +10,10 @@ The structure of project is the following:
   - B1
   - B2
   - Datasets
-   - cartoon_set
-   - celeba
-   - cartoon_set_test
-   - celeba_test
+    - cartoon_set
+    - celeba
+    - cartoon_set_test
+    - celeba_test
   - main.py
   - imports.py
   - README.md
