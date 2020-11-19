@@ -104,19 +104,19 @@ B2 | LogReg | 0.90071 | 0.84133 | 0.84267
 
   * **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1img.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1img.jpg" height="80%" width="80%">
   
   * **Task A2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2img.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2img.jpg" height="80%" width="80%">
   
   * **Task B1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1img.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1img.jpg" height="80%" width="80%">
   
   * **Task B2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2img.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2img.jpg" height="80%" width="80%">
   
   
   
