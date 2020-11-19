@@ -70,7 +70,7 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 
 We present our best models' performance for each task on train, validation and test set:
 
-**1. Table with Final Accuracy Results:**
+### 1. Table with Final Accuracy Results:
 
 Task | Model | Train Ac | Val Acc | Test Acc
 ------------ | ------------- | ------------- | ------------- | -------------
@@ -79,7 +79,7 @@ A2 | CNN | 0.95686 | 0.88133 | 0.89333
 B1 | SVM | 1 | 1 | 1
 B2 | LogReg | 0.90071 | 0.84133 | 0.84267
 
-**2. Comparison of Test Set performance on Baseline model vs Best model:**
+### 2. Comparison of Test Set performance on Baseline model vs Best model:
 
   **Note:** *Check each task's Notebook for further details on the structure and hyperparameters of models*
   
@@ -93,7 +93,7 @@ B2 | LogReg | 0.90071 | 0.84133 | 0.84267
   
   * **Task B1:**
   
-  *Check further details of this unusual results on Task B1 Notebook...*
+   *Check further details of this unusual results on Task B1 Notebook...*
   
   <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1.jpg" height="40%" width="40%">
   
