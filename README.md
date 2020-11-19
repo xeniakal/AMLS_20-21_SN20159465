@@ -47,7 +47,7 @@ The project was implemented in a windows machine, on conda environment, a friend
 If you want to run this repository, first install the required packages:
 
 ```
-git clone https://github.com/huggingface/pytorch-pretrained-BigGAN.git
+git clone https://github.com/xeniakal/AMLS_20-21_SN20159465.git
 pip install -r requirements.txt
 ```
 
