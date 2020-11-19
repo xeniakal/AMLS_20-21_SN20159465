@@ -85,38 +85,38 @@ B2 | LogReg | 0.90071 | 0.84133 | 0.84267
   
   * **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/A1.jpg" height="70%" width="60%">
   
   * **Task A2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/A2.jpg" height="70%" width="60%">
   
   * **Task B1:**
   *Check further details of this unusual results on Task B1 Notebook...*
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1.jpg" height="40%" width="40%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/B1.jpg" height="40%" width="40%">
   
   * **Task B2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/B2.jpg" height="70%" width="60%">
   
 ### 3. Let's play with the images..
 
   * **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1img.jpg">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/A1img.jpg">
   
   * **Task A2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2img.jpg">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/A2img.jpg">
   
   * **Task B1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1img.jpg">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/B1img.jpg">
   
   * **Task B2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2img.jpg">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/imgages/B2img.jpg">
   
   
   
