@@ -73,11 +73,11 @@ We present our best models' performance for each task on train, validation and t
 
 Task | Model | Train Ac | Val Acc | Test Acc
 ------------ | ------------- | ------------- | ------------- | -------------
-A1 | CNN-LogReg | a | 0.91600 | 0.91333
+A1 | CNN-LogReg | 0.92314 | 0.91600 | 0.91333
 A2 | CNN | a | 0.88133 | 0.89333
 B1 | SVM | 1 | 1 | 1
 B2 | LogReg | a | 0.84133 | 0.84267
 
 * **Comparison of Test Set performance on Baseline model vs Best model:**
 
-  **Note:** Check each task's Notebook for further details on the structure o and hyperparameters of models
+  **Note:** *Check each task's Notebook for further details on the structure and hyperparameters of models*
