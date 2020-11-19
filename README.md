@@ -61,7 +61,8 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 
 ## Code Usage
 
-Explain how to run...
+* `.ipynb` files can be run cell by cell, after installing the requirements, in case you want to check every tecnhique and model of our experiments, or just run cells of specific models in which you will be guided throughtthe organisation of our notebooks
+*`.py` files:
 
 
 
