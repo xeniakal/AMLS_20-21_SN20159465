@@ -84,15 +84,15 @@ B2 | LogReg | a | 0.84133 | 0.84267
   
   1. **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1.jpg" height="70%" width="70%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1.jpg" height="70%" width="50%">
   
   2. **Task A2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2.jpg" height="70%" width="70%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2.jpg" height="70%" width="50%">
   
   4. **Task B2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2.jpg" height="70%" width="70%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2.jpg" height="70%" width="50%">
   
   
   
