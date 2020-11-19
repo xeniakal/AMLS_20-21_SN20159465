@@ -43,18 +43,12 @@ This repo was tested on `Python 3.6`. You are encouraged to use this version or 
 If you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.
 
 The project was implemented in a windows machine, on conda environment, a friendly interface to run python projects. Python Notebooks were executed on Jupyter Notebook, while python files on Conda integrated environment. Before installing anything, it is suggested to create a conda environment which will satisfy our project dependencies.
-So the following packages are required to be installed to run the project:
+
+If you want to run this repository, first install the required packages:
 
 ```
-$ pip install pandas
-$ pip install numpy
-$ pip install matplotlib
-$ pip install tensorflow
-$ pip install keras
-$ pip install scikit-learn
-$ pip install seaborn
-$ pip install imblearn
-$ pip install pickle
+git clone https://github.com/huggingface/pytorch-pretrained-BigGAN.git
+pip install -r requirements.txt
 ```
 
 Add libraries...
