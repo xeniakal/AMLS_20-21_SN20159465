@@ -1,5 +1,17 @@
 # AMLS_20-21_SN20159465
 
+This assignment involves the realisation of various machine learning tasks on two provided datasets that are subsets of the original CelebFaces Attributes Dataset (CelebA) and Cartoon Set. The datasets can be downloaded via following link: https://drive.google.com/file/d/1wGrq9r1fECIIEnNgI8RS-_kPCf8DVv0B/view?usp=sharing
+You are expected to go through the data, analyse it and/or pre-process
+it as necessary.
+all steps taken to solve the tasks, explaining your model
+and design choices. In addition, in the report, you should also describe and analyse
+the results obtained via your experiments and provide accuracy prediction scores on
+unseen data.
+You should design separate modes for each task and report training errors, validation errors,
+hyper-parameter tuning. You are allowed to use the same model/methodology for different
+tasks, but you must explain the reason behind choices. If you tried several models for
+one task, feel free to show them in your code and compare the results in the report.
+
 ## How to use
 
 This project is part of the final assignment of AMLS 2020-2021 course of Integrated Machine Learning Systems MSc at UCL. It consists of four tasks **A1, A2, B1, B2** which are explained on [Tasks](#tasks).
@@ -21,25 +33,11 @@ The structure of project is the following:
  The **A1, A2, B1 and B2** folders contain the code files for each task, besides the pretrained models that had the better performance.
 
 
-
-
-
-
 ## Tasks
 
 Add content...
 (say what .ipynb and .py do)
-The assignment involves the realisation of various machine learning tasks on a provided
-dataset. You are expected to go through the data, analyse it and/or pre-process
-it as necessary.
-all steps taken to solve the tasks, explaining your model
-and design choices. In addition, in the report, you should also describe and analyse
-the results obtained via your experiments and provide accuracy prediction scores on
-unseen data.
-You should design separate modes for each task and report training errors, validation errors,
-hyper-parameter tuning. You are allowed to use the same model/methodology for different
-tasks, but you must explain the reason behind choices. If you tried several models for
-one task, feel free to show them in your code and compare the results in the report.
+
 
 ## Workflow graph
 
