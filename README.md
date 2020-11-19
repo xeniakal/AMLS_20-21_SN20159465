@@ -100,5 +100,17 @@ B2 | LogReg | 0.90071 | 0.84133 | 0.84267
   
   <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2.jpg" height="70%" width="60%">
   
+### 3. Let's play with the images..
+
+  * **Task A1:**
+  
+  * **Task A2:**
+  
+  * **Task B1:**
+  
+  * **Task B2:**
+  
+  
+  
   
   
