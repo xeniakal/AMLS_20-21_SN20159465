@@ -69,11 +69,13 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 ## Final results
 
 We present our best models' performance for each task on train, validation and test set:
-* Table with final accuracy results:
+* **Table with Final Accuracy Results:**
 
 Task | Model | Train Ac | Val Acc | Test Acc
 ------------ | ------------- | ------------- | ------------- | -------------
-A1 | Content from cell 2 | a | a | a
-A2 | Content in the second column | a | a | a
-B1 | fr | a | a | a
-B2 | gt | a | a | a
+A1 | CNN-LogReg | a | 0.91600 | 0.91333
+A2 | CNN | a | 0.88133 | 0.89333
+B1 | SVM | 1 | 1 | 1
+B2 | LogReg | a | 0.84133 | 0.84267
+
+* Comparison of Test Set performance on Baseline model vs Best model > We're living the future so
