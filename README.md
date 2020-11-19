@@ -38,20 +38,20 @@ Add pipeline procedures...
 
 ## Dependencies
 
-This repo was tested on `Python 3.6`. You are encouraged to use this version or later.
+This repo was tested on `Python 3.6.12`. You are encouraged to use this version or later.
 
 If you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.
 
 The project was implemented in a windows machine, on conda environment, a friendly interface to run python projects. Python Notebooks were executed on Jupyter Notebook, while python files on Conda integrated environment. Before installing anything, it is suggested to create a conda environment which will satisfy our project dependencies.
 
-If you want to run this repository, first install the required packages:
+If you want to run this repository, first install the required dependencies:
 
 ```
 git clone https://github.com/xeniakal/AMLS_20-21_SN20159465.git
 pip install -r requirements.txt
 ```
 
-Add libraries...
+All neccessary libraries are imported through `imports.py` file. Just import this file in your code and all dependencies will be inserted automatically.
 
 ## Code and Folders
 
