@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 All neccessary libraries are imported through `imports.py` file. Just import this file in your code and all dependencies will be inserted automatically.
 
-## Code and Folders
+## Code Usage
 
 Explain how to run...
 
