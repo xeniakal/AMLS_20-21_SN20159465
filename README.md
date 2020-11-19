@@ -83,5 +83,5 @@ B2 | LogReg | a | 0.84133 | 0.84267
   **Note:** *Check each task's Notebook for further details on the structure and hyperparameters of models*
   
   * **Task A1:**
-  !(../master/img_confusion_matrix/A1.jpg)
+  !(https://github.com/xeniakal/AMLS_20-21_SN20159465.gitr/img_confusion_matrix/A1.jpg)
   
