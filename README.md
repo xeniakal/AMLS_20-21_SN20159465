@@ -92,8 +92,7 @@ B2 | LogReg | 0.90071 | 0.84133 | 0.84267
   <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2.jpg" height="70%" width="60%">
   
   * **Task B1:**
-  
-   *Check further details of this unusual results on Task B1 Notebook...*
+  *Check further details of this unusual results on Task B1 Notebook...*
   
   <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1.jpg" height="40%" width="40%">
   
