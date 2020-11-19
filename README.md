@@ -40,7 +40,9 @@ Add pipeline procedures...
 
 *If you have an Nvidia GPU, then you can install tensorflow-gpu package. It will make things run a lot faster.*
 
-The project was implemented in a windowsd machine, on conda environment, a frindly interface to run python projects.
+The project was implemented in a windows machine, on conda environment, a friendly interface to run python projects. Before installing anything, it is suggested to create a conda environment which will satisfy our project dependencies. So the following packets are required to be installed to run the project:
+
+`<print>`
 
 Add libraries...
 
