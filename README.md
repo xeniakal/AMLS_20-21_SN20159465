@@ -17,6 +17,8 @@ The structure of project is the following:
   - main.py
   - imports.py
   - README.md
+  
+ The **A1, A2, B1 and B2** folders contain the code files for each task, besides the pretrained models that had the better performance.
 
 
 
