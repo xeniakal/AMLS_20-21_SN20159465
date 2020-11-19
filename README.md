@@ -69,30 +69,48 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 ## Final results
 
 We present our best models' performance for each task on train, validation and test set:
-* **Table with Final Accuracy Results:**
+
+### 1. Table with Final Accuracy Results:
 
 Task | Model | Train Ac | Val Acc | Test Acc
 ------------ | ------------- | ------------- | ------------- | -------------
 A1 | CNN-LogReg | 0.92314 | 0.91600 | 0.91333
 A2 | CNN | 0.95686 | 0.88133 | 0.89333
 B1 | SVM | 1 | 1 | 1
-B2 | LogReg | a | 0.84133 | 0.84267
+B2 | LogReg | 0.90071 | 0.84133 | 0.84267
 
-* **Comparison of Test Set performance on Baseline model vs Best model:**
+### 2. Comparison of Test Set performance on Baseline model vs Best model:
 
   **Note:** *Check each task's Notebook for further details on the structure and hyperparameters of models*
   
-  1. **Task A1:**
+  * **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1.jpg" height="70%" width="50%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A1.jpg" height="70%" width="60%">
   
-  2. **Task A2:**
+  * **Task A2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2.jpg" height="70%" width="50%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/A2.jpg" height="70%" width="60%">
   
-  4. **Task B2:**
+  * **Task B1:**
+  *Check further details of this unusual results on Task B1 Notebook...*
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2.jpg" height="70%" width="50%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B1.jpg" height="40%" width="40%">
+  
+  * **Task B2:**
+  
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/img_confusion_matrix/B2.jpg" height="70%" width="60%">
+  
+### 3. Let's play with the images..
+
+  * **Task A1:**
+  
+  * **Task A2:**
+  
+  * **Task B1:**
+  
+  * **Task B2:**
+  
+  
   
   
   
