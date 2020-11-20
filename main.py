@@ -4,12 +4,13 @@ from A2.smile_detection import *
 from B1.faceShape_recognition import *
 from B2.eyeColor_recognition import *
 
-pkl_filename_A1 = "D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/A1/model_A1.pkl"
-model_filename_A2 = "D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/A2/best.modelB3.h5"
-weights_filename_A2 = "D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/A2/weights.best.modelB3.hdf5"
-pkl_filename_B2 = "D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/B2/model_B2.pkl"
+# "D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/A1/model_A1.pkl"
+pkl_filename_A1 = "../A1/model_A1.pkl"
+model_filename_A2 = "../A2/best.modelB3.h5"
+weights_filename_A2 = "../A2/weights.best.modelB3.hdf5"
+pkl_filename_B2 = "../B2/model_B2.pkl"
 
-#python main.py A1 for task A1
+# run: python main.py A1 for task A1
 if __name__ == '__main__':
 
     task = str(sys.argv[1])
@@ -25,8 +26,7 @@ if __name__ == '__main__':
     # Task A1
     if task  == 'A1' or task  == 'a1' or task == 'all':
         # Load Dataset for Task A1
-        #dataset = pd.read_csv('../Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
-        dataset = pd.read_csv('D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
+        dataset = pd.read_csv('../Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
         print("Celeba Gender Dataset Size: ",dataset.shape)
         # Data preprocessing
         X_train_A1, X_dev_A1, X_test_A1, y_train_A1, y_dev_A1, y_test_A1 = data_preprocessing_A1(dataset)
@@ -60,8 +60,7 @@ if __name__ == '__main__':
     # # Task A2
     if task  == 'A2' or task  == 'a2' or task == 'all':
         # Load Dataset for Task A2
-        #dataset = pd.read_csv('../Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
-        dataset = pd.read_csv('D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/celeba/labels.csv', sep = '\t', usecols = [1,3])
+        dataset = pd.read_csv('../Datasets/celeba/labels.csv', sep = '\t', usecols = [1,3])
         print("Celeba Smile Dataset Size: ",dataset.shape)
         # Data preprocessing
         X_train_A2, X_dev_A2, X_test_A2, y_train_A2, y_dev_A2, y_test_A2 = data_preprocessing_A2(dataset)
@@ -96,8 +95,7 @@ if __name__ == '__main__':
     # # Task B1
     if task  == 'B1' or task  == 'b1' or task == 'all':
         # Load Dataset for Task B1
-        #dataset = pd.read_csv('../Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
-        dataset = pd.read_csv('D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [2,3])
+        dataset = pd.read_csv('../Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [2,3])
         print("Cartoon Face Shape Dataset Size: ",dataset.shape)
         # Data preprocessing
         X_train_B1, X_dev_B1, X_test_B1, y_train_B1, y_dev_B1, y_test_B1 = data_preprocessing_B1(dataset)
@@ -132,8 +130,7 @@ if __name__ == '__main__':
     # # Task B2
     if task  == 'B2' or task  == 'b2' or task == 'all':
         # Load Dataset for Task B2
-        #dataset = pd.read_csv('../Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
-        dataset = pd.read_csv('D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [1,3])
+        dataset = pd.read_csv('../Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [1,3])
         print("Cartoon Face Shape Dataset Size: ",dataset.shape)
         # Data preprocessing
         X_train_B2, X_dev_B2, X_test_B2, y_train_B2, y_dev_B2, y_test_B2 = data_preprocessing_B2(dataset)
