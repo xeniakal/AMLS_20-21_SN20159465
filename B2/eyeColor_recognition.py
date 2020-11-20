@@ -1,5 +1,5 @@
 from imports import *
-images_folder = 'D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/cartoon_set/img/'
+images_folder = '../Datasets/cartoon_set/img/'
 offset_height=40
 offset_width=30
 target_height=30
@@ -8,7 +8,7 @@ target_width=50
 
 def data_preprocessing_B2(dataset):
     """
-    Our custom preprocessing class, for preparing data for Task B1:
+    Our custom preprocessing class, for preparing data for Task B2:
     it calls encapsulated main(dataset)
 
     """

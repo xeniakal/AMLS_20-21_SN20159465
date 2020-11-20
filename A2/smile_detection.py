@@ -1,5 +1,5 @@
 from imports import *
-images_folder = 'D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/celeba/img/'
+images_folder = '../Datasets/celeba/img/'
 
 def data_preprocessing_A2(dataset):
     """
@@ -95,7 +95,7 @@ def data_preprocessing_A2(dataset):
 
 def Print_Classification_Results(y_dev,y_pred):
     """
-    Our custom class, for printing Classificaation Results for Task A1:
+    Our custom class, for printing Classificaation Results for Task A2:
 
     """
     print(classification_report(y_dev, y_pred))

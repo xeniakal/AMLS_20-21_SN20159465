@@ -1,5 +1,5 @@
 from imports import *
-images_folder = 'D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/celeba/img/'
+images_folder = '../Datasets/celeba/img/'
 
 def data_preprocessing_A1(dataset):
     """
@@ -59,8 +59,8 @@ def data_preprocessing_A1(dataset):
     def feature_extraction_from_CNN(X_train_img, X_test_img, X_dev_img):
         #load the best model we trained
         print('Load pretrained CNN model for feature extraction...')
-        model = load_model('D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/A1/best.augm_model.h5')
-        model.load_weights('D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/A1/weights.best.augm_model.hdf5')
+        model = load_model('../A1/best.augm_model.h5')
+        model.load_weights('../A1/weights.best.augm_model.hdf5')
         #take final dense layer to project our raw features into this layer's dimensions
         layer_outputs = model.layers[314].output
         activation_model = Model(inputs=model.input, outputs=layer_outputs)

@@ -1,5 +1,5 @@
 from imports import *
-images_folder = 'D:/Xenia/UCL MSc/Term 1/Applied ML Systems I - ELEC0134/Assignement/AMLS_20-21_SN20159465/Datasets/cartoon_set/img/'
+images_folder = '../Datasets/cartoon_set/img/'
 
 
 def data_preprocessing_B1(dataset):
