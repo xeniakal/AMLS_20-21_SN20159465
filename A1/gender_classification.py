@@ -1,5 +1,5 @@
 from imports import *
-images_folder = '../Datasets/celeba/img/'
+images_folder = 'Datasets/celeba/img/'
 
 def data_preprocessing_A1(dataset):
     """
@@ -59,8 +59,8 @@ def data_preprocessing_A1(dataset):
     def feature_extraction_from_CNN(X_train_img, X_test_img, X_dev_img):
         #load the best model we trained
         print('Load pretrained CNN model for feature extraction...')
-        model = load_model('../A1/best.augm_model.h5')
-        model.load_weights('../A1/weights.best.augm_model.hdf5')
+        model = load_model('A1/best.augm_model.h5')
+        model.load_weights('A1/weights.best.augm_model.hdf5')
         #take final dense layer to project our raw features into this layer's dimensions
         layer_outputs = model.layers[314].output
         activation_model = Model(inputs=model.input, outputs=layer_outputs)
@@ -75,7 +75,7 @@ def data_preprocessing_A1(dataset):
     def feature_extraction_PCA(X_train_new, X_dev_new, X_test_new):
         print("\n PCA feature Extraction...\n")
         #transform data through PCA technique
-        n = 200
+        n = 125
         pca = PCA(n_components=n)
         X_train_new_PCA = pca.fit_transform(X_train_new)
         print("Data Shape After PCA Feature Extraction:",X_train_new_PCA[0].shape)
