@@ -1,5 +1,5 @@
 from imports import *
-images_folder = '../Datasets/cartoon_set/img/'
+images_folder = 'Datasets/cartoon_set/img/'
 offset_height=40
 offset_width=30
 target_height=30

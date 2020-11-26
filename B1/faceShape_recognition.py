@@ -1,5 +1,5 @@
 from imports import *
-images_folder = '../Datasets/cartoon_set/img/'
+images_folder = 'Datasets/cartoon_set/img/'
 
 
 def data_preprocessing_B1(dataset):
