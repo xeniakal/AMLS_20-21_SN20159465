@@ -40,7 +40,9 @@ In order to avoid overfitting (our model not to be tuned to the data its been gi
 
 ## Workflow graph
 
-Add pipeline procedures...
+**The Pipeline procedure:**
+
+<img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/A1/A1.png" height="30%" width="40%">
 
 ## Dependencies
 
