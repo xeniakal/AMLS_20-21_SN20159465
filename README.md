@@ -74,7 +74,7 @@ We present our best models' performance for each task on train, validation and t
 
 Task | Model | Train Ac | Val Acc | Test Acc
 ------------ | ------------- | ------------- | ------------- | -------------
-A1 | CNN-LogReg | 0.92314 | 0.91600 | 0.91733
+A1 | CNN-LogReg | 0.94743 | 0.91867 | 0.91733
 A2 | CNN | 0.95686 | 0.88133 | 0.89333
 B1 | SVM | 1 | 1 | 1
 B2 | LogReg | 0.90071 | 0.84133 | 0.84267
