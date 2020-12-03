@@ -27,11 +27,9 @@ The **A1, A2, B1 and B2** folders contain the code files for each task, besides 
 * In *.ipynb* files we present all steps taken to solve the tasks, explaining our various models and design choices. In addition, we explain briefly the results obtained via our experiments and provide accuracy prediction scores on unseen data (Test Set), besides Train and Dev Set. To compare the efficiency of each model we present their metrics and compare them through plots and tables.
 * In *.py* files, only final best performing model's code is included with the best preprocessing technique for each task, while accuracy reports (including metrics and confusion matrixes) for each train, validation and test data are provided.
 * **‘Dataset’** folder is empty for the shake of memory bandwidth on Github. If you want to run the project use this folder to insert the datasets from the link provided.
-
-
-{\color{red} 
+ 
 Notice
-}
+<p style='color:red'>This is some red text.</p>
 
 *.ipynb* files contain the whole task pipeline with the multiple models tested until find the best performing! *.py* files contain only the best performing model - if want to run any other model just follow the headlines inside notebooks to run your desired model.  
 
