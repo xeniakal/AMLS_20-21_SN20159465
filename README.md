@@ -28,7 +28,7 @@ The **A1, A2, B1 and B2** folders contain the code files for each task, besides 
 * In *.py* files, only final best performing model's code is included with the best preprocessing technique for each task, while accuracy reports (including metrics and confusion matrixes) for each train, validation and test data are provided.
 * **‘Dataset’** folder is empty for the shake of memory bandwidth on Github. If you want to run the project use this folder to insert the datasets from the link provided.
 
-```{=latex}
+
 {\color{red} 
 Notice
 }
