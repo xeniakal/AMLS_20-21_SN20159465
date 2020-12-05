@@ -14,7 +14,7 @@ pkl_filename_B2 = "B2/model_B2.pkl"
 if __name__ == '__main__':
 
     task = str(sys.argv[1])
-    if task!='A1' and task!='A2'and task!='B1' and task!='B2' and task!='all':
+    if task!='A1' and task!='A2'and task!='B1' and task!='B2' and task!='a1' and task!='a2'and task!='b1' and task!='b2'and task!='all':
         print("\nERROR\nYou typed wrong name Task...\nYou should type:\n")
         print(">> python main.py A1 or \n>> python main.py A2 or \n>> python main.py B1 or\n>> python main.py B2 or\n>> python main.py all #to run all tasks")
     else:
