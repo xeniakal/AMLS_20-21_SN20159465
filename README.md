@@ -45,7 +45,7 @@ In order to avoid overfitting (our model not to be tuned to the data its been gi
 
 **The Pipeline procedure:**
 
-<img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/A1/A1.png" height="30%" width="40%">
+<img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A1.png" height="30%" width="40%">
 
 ## Dependencies
 
