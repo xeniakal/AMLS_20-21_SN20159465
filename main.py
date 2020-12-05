@@ -13,18 +13,17 @@ pkl_filename_B2 = "B2/model_B2.pkl"
 # run: python main.py A1 for task A1
 if __name__ == '__main__':
 
-    task = str(sys.argv[1])
-    if task!='A1' and task!='A2'and task!='B1' and task!='B2' and task!='a1' and task!='a2'and task!='b1' and task!='b2'and task!='all':
-        print("\nERROR\nYou typed wrong name Task...\nYou should type:\n")
-        print(">> python main.py A1 or \n>> python main.py A2 or \n>> python main.py B1 or\n>> python main.py B2 or\n>> python main.py all #to run all tasks")
+    if len(sys.argv) < 2:
+        print("\nYou chose to run all tasks...Let's start!\n")
+        task = 'all'
     else:
-        print('\nYou chose to run Task {}:'.format(str(sys.argv[1])))
-        print("Congrats!! Get the party started...\n")
-
+        task = str(sys.argv[1])
+        print("\nYou chose to run Task {}...Let's start!\n".format(str(sys.argv[1])))
 
     # ======================================================================================================================
     # Task A1
     if task  == 'A1' or task  == 'a1' or task == 'all':
+        print('Task A1 running...\n')
         # Load Dataset for Task A1
         dataset = pd.read_csv('Datasets/celeba/labels.csv', sep = '\t', usecols = [1,2])
         print("Celeba Gender Dataset Size: ",dataset.shape)
@@ -53,12 +52,14 @@ if __name__ == '__main__':
         fig = plt.figure(2)
         fig.canvas.set_window_title('Confusion Matrix for Test Data')
         acc_A1_test = Print_Classification_Results(y_test_A1,y_pred)
+        print("\n")
     # ======================================================================================================================
 
 
     # ======================================================================================================================
     # # Task A2
     if task  == 'A2' or task  == 'a2' or task == 'all':
+        print('Task A2 running...\n')
         # Load Dataset for Task A2
         dataset = pd.read_csv('Datasets/celeba/labels.csv', sep = '\t', usecols = [1,3])
         print("Celeba Smile Dataset Size: ",dataset.shape)
@@ -87,6 +88,7 @@ if __name__ == '__main__':
         fig = plt.figure(2)
         fig.canvas.set_window_title('Confusion Matrix for Test Data')
         acc_A2_test = Print_Classification_Results(y_test_A2,y_pred)
+        print("\n")
     # ======================================================================================================================
 
 
@@ -94,6 +96,7 @@ if __name__ == '__main__':
     # ======================================================================================================================
     # # Task B1
     if task  == 'B1' or task  == 'b1' or task == 'all':
+        print('Task B1 running...\n')
         # Load Dataset for Task B1
         dataset = pd.read_csv('Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [2,3])
         print("Cartoon Face Shape Dataset Size: ",dataset.shape)
@@ -122,6 +125,7 @@ if __name__ == '__main__':
         fig = plt.figure(2)
         fig.canvas.set_window_title('Confusion Matrix for Test Data')
         acc_B1_test = Print_Classification_Results(y_test_B1,y_pred)
+        print("\n")
     # ======================================================================================================================
 
 
@@ -129,6 +133,7 @@ if __name__ == '__main__':
     # # ======================================================================================================================
     # # Task B2
     if task  == 'B2' or task  == 'b2' or task == 'all':
+        print('Task B2 running...\n')
         # Load Dataset for Task B2
         dataset = pd.read_csv('Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [1,3])
         print("Cartoon Face Shape Dataset Size: ",dataset.shape)
@@ -157,6 +162,7 @@ if __name__ == '__main__':
         fig = plt.figure(2)
         fig.canvas.set_window_title('Confusion Matrix for Test Data')
         acc_B2_test = Print_Classification_Results(y_test_B2,y_pred)
+        print("\n")
     # # ======================================================================================================================
 
 
