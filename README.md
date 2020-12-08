@@ -70,6 +70,7 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 * `.py` files: To run each task insert as argument your preferred task to the main function. Possible arguments are: `A1` or `a1`,`A2` or `a2`,`B1` or `B1`,`B2` or `B2` and to execute all tasks insert no argument, eg:
 
   `$ python main.py` to run all tasks
+  
   `$ python main.py A1` to run A1 task
 
 
