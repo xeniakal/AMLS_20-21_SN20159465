@@ -21,6 +21,7 @@ The structure of project is the following:
     - celeba_test
   - main.py
   - imports.py
+  - requirements.txt
   - README.md
   
 The **A1, A2, B1 and B2** folders contain the code files for each task, besides the pretrained models that showed the better performance. Each folder contains one `.ipynb` file, one `.py` file and the final pretrained model (*pickle or hdf5 format*) which is explained how it was adopted in the corresponding .ipynb file
