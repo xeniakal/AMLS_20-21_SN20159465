@@ -67,7 +67,7 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 
 ## Code Usage
 
-* `.ipynb` files can be run cell by cell, after installing the requirements, in case you want to check every tecnhique and model of our experiments, or just run cells of specific models in which you will be guided throught the arranging of our notebooks. <br\>*P.S. To train by yourself the final best performing model just run the cell under the subsection of headline <u>Best performing model</u>*
+* `.ipynb` files can be run cell by cell, after installing the requirements, in case you want to check every tecnhique and model of our experiments, or just run cells of specific models in which you will be guided throught the arranging of our notebooks. <br/>*P.S. To train by yourself the final best performing model just run the cell under the subsection of headline* <ins>Best performing model</ins>
 * `.py` files: To run each task insert as argument your preferred task to the main function. Possible arguments are: `A1` or `a1`,`A2` or `a2`,`B1` or `b1`,`B2` or `b2`, otherwise leave it blank with no argument to execute all tasks, eg:
 
   `$ python main.py` to run all tasks
