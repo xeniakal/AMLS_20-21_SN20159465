@@ -69,12 +69,12 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
 
 * `.ipynb` files can be run cell by cell, after installing the requirements, in case you want to check every tecnhique and model of our experiments, or just run cells of specific models in which you will be guided throught the arranging of headers inside our notebooks.
   * Every jupyter notebook comprises 5 initial steps, besides the more specified sections that follow and differ in each Task according to the problem:
-   > * Imports
-    * Functions
-    * Read Data
-    * Baseline Classifiers
-    * Preproccessing Data
-    * ...
+    > * Imports
+      * Functions
+      * Read Data
+      * Baseline Classifiers
+      * Preproccessing Data
+      * ...
   * Always run first **"Imports"** and **"Functions"** headers
   * To train by yourself the **<ins>final best performing model</ins>** just run the last cell under the subsection **"Train from scratch the best performing model"** under the header **"Best performing model"**.
 
