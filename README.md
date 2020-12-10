@@ -105,7 +105,7 @@ B2 | LogReg | 0.90043 | 0.84267 | 0.84533
   
   * **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A1.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A1.jpg" height="80%" width="70%">
   
   * **Task A2:**
   
