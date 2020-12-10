@@ -75,6 +75,7 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
     > * Baseline Classifiers
     > * Preproccessing Data
     > * ...
+    > * Best performing model
   * If you choose to run specific cells, **ALWAYS EXECUTE FIRST** `Imports` and `Functions` sections
   * To train by yourself the **<ins>Final Best Performing Model</ins>** just execute the last cell under the subsection `Train from scratch the best performing model` under the header `Best performing model`.
 
