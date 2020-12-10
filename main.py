@@ -18,7 +18,10 @@ if __name__ == '__main__':
         task = 'all'
     else:
         task = str(sys.argv[1])
-        print("\nYou chose to run Task {}...Let's start!\n".format(str(sys.argv[1])))
+        if task == 'A1' or task == 'a1' or task == 'B1' or task == 'b1' or task == 'A2' or task == 'a2' or task == 'B2' or task == 'b2':
+            print("\nYou chose to run Task {}...Let's start!\n".format(str(sys.argv[1])))
+        else:
+            print("\nThe task name you entered doesn't exist...Try again!")
 
     # ======================================================================================================================
     # Task A1
@@ -136,7 +139,7 @@ if __name__ == '__main__':
         print('Task B2 running...\n')
         # Load Dataset for Task B2
         dataset = pd.read_csv('Datasets/cartoon_set/labels.csv', sep = '\t', usecols = [1,3])
-        print("Cartoon Face Shape Dataset Size: ",dataset.shape)
+        print("Cartoon Eye Color Dataset Size: ",dataset.shape)
         # Data preprocessing
         X_train_B2, X_dev_B2, X_test_B2, y_train_B2, y_dev_B2, y_test_B2 = data_preprocessing_B2(dataset)
         # Load model object A1 which was fine-tuned based on validation set
