@@ -105,20 +105,20 @@ B2 | LogReg | 0.90043 | 0.84267 | 0.84533
   
   * **Task A1:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A1.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A1.jpg" height="80%" width="70%">
   
   * **Task A2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A2.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/A2.jpg" height="80%" width="70%">
   
   * **Task B1:**<br/> 
   *Further details of this unusual results on Task's B1 Notebook...*
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/B1.jpg" height="40%" width="40%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/B1.jpg" height="50%" width="50%">
   
   * **Task B2:**
   
-  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/B2.jpg" height="70%" width="60%">
+  <img src="https://github.com/xeniakal/AMLS_20-21_SN20159465/blob/master/images/B2.jpg" height="80%" width="70%">
   
 ### 3. Let's play with the images..
 
