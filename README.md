@@ -92,12 +92,12 @@ We present our best models' performance for each task on train, validation and t
 
 ### 1. Table with Final Accuracy Results:
 
-Task | Model | Train Ac | Val Acc | Test Acc
------------- | ------------- | ------------- | ------------- | -------------
-A1 | CNN-SVM | 0.94743 | 0.91867 | 0.91733
-A2 | CNN | 0.97300 | 0.88000 | 0.89467
-B1 | SVM | 1 | 1 | 1
-B2 | LogReg | 0.90043 | 0.84267 | 0.84533
+Task | Model | Train Ac | Val Acc | Test Acc | Extra Test Acc
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+A1 | CNN-SVM | 0.94743 | 0.91867 | 0.91733 | 0.91500
+A2 | CNN | 0.97300 | 0.88000 | 0.89467 | 0.87300
+B1 | SVM | 1 | 1 | 1 | 0.99920
+B2 | LogReg | 0.90043 | 0.84267 | 0.84533 | 0.84640
 
 ### 2. Comparison of Test Set performance on Baseline model vs Best model:
 
