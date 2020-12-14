@@ -92,14 +92,14 @@ We present our best models' performance for each task on train, validation and t
 
 ### 1. Table with Final Accuracy Results:
 
-The Extra Test set was given to us one week before the final submission in order to check wether our models are overfitting. It is obvious that our models are sufficiently generalized, since the Extra Test set's accuracy is consistent with both validation and test sets accuracy that were given to us from the beggining.
-
 Task | Model | Train Ac | Val Acc | Test Acc | Extra Test Acc
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
 A1 | CNN-SVM | 0.94743 | 0.91867 | 0.91733 | 0.91500
 A2 | CNN | 0.97300 | 0.88000 | 0.89467 | 0.87300
 B1 | SVM | 1 | 1 | 1 | 0.99920
 B2 | LogReg | 0.90043 | 0.84267 | 0.84533 | 0.84640
+
+The Extra Test set was given to us one week before the final submission in order to check wether our models are overfitting. It is obvious that our models are sufficiently generalized, since the Extra Test set's accuracy is consistent with both validation and test sets accuracy that were given to us from the beggining.
 
 ### 2. Comparison of Test Set performance on Baseline model vs Best model:
 
