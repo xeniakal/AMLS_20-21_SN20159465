@@ -99,6 +99,7 @@ A2 | CNN | 0.97300 | 0.88000 | 0.89467 | 0.87300
 B1 | SVM | 1 | 1 | 1 | 0.99920
 B2 | LogReg | 0.90043 | 0.84267 | 0.84533 | 0.84640
 
+
 <ins>The Extra Test Set</ins> was given to us one week before the final submission in order to check wether our models are overfitting. It is obvious that our models are sufficiently generalized, since the Extra Test Set's accuracy is consistent with both validation and test sets accuracy that were given to us from the beggining.
 
 ### 2. Comparison of Test Set performance on Baseline model vs Best model:
