@@ -78,6 +78,7 @@ All neccessary libraries are imported through `imports.py` file. Just import thi
     > * Best performing model
   * If you choose to run specific cells, **ALWAYS EXECUTE FIRST** `Imports`, `Read Data` and `Functions` sections
   * To train by yourself the **<ins>Final Best Performing Model</ins>**, run the last cell under the subsection `Train from scratch the best performing model`, under the main header `Best performing model`.
+  * Notebook of task B1 has a slightly different staging, since it has some peculiarity that is clearly presented on the Notebook
 
 * `.py` files: To run each task insert as argument your preferred task to the main function. Possible arguments are: `A1` or `a1`,`A2` or `a2`,`B1` or `b1`,`B2` or `b2`, otherwise leave it blank with no argument to execute all tasks, eg:
 
